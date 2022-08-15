@@ -1,0 +1,259 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #FF714345;
+    padding: 38px 0px 48px;
+}
+
+.header_flex, .about, .footer_flex, .subscibe, .plan_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_li {
+    display: inline-block;
+  
+}
+
+.nav_li:not(:first-of-type) {
+    margin-left: 49px;
+}
+
+.nav_link {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: -0.4689474105834961px;
+    color: #696871;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+     color: black;
+     transition: 300ms;
+}
+
+.button {
+    height: 60px;
+    width: 212px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: -0.5314737558364868px;
+    color: #FFFFFF;
+    border: none;
+    height: 60px;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.button_orange {
+    background: #FF7143;
+}
+
+.button_orange:hover {
+    background: #f75e2c;
+    transition: 500ms;
+}
+
+.about {
+    margin: 105px auto 85px;
+}
+
+.about_title {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 77px;
+    letter-spacing: -2.5010533332824707px;
+    color: black;
+    max-width: 467px ; 
+    margin-bottom: 30px;
+}
+
+.about_text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.6252632141113281px;
+    max-width: 410px;
+    margin-bottom: 50px;
+}
+
+.button_violet {
+    background: #5454D4;
+}
+
+.button_violet:hover {
+    background: #2727eb;
+    transition: 500ms;
+}
+
+.button_transparent:hover {
+    background: #c6c6f3;
+    transition: 500ms;
+}
+
+.button_transparent {
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+
+.down {
+    background-color: #FF714345;
+    padding: 60px 0px 65px;
+}
+
+.nav_down {
+    display: inline-block;
+}
+
+.nav_down:not(:first-of-type) {
+    margin-left: 40px;
+}
+
+.down_link {   
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.4689474105834961px;
+    color:#696871;
+    text-decoration: none;
+}
+
+.down_link_black {
+    color:#19191B;
+    font-weight: bold;
+}
+
+.down_link:hover {
+    color: #19191B;
+    transition: 300ms;
+}
+
+.down_link_black:hover {
+    color: #696871;
+}
+
+.subscibe {
+    margin-bottom: 85px;
+}
+
+.subscribe_title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 57px;
+    letter-spacing: -1.563158392906189px;
+    color: #19191B;
+    margin-bottom: 38px;
+}
+
+.input {
+    width: 302px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #7087FF;
+    padding-left: 14px;
+    box-sizing: border-box;
+    margin-right: 39px;
+}
+
+.input::placeholder {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: -0.5314737558364868px;
+    color: #000000;
+}
+
+.input:hover {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: -0.5314737558364868px;
+    color: #000000;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.plan {
+    margin-bottom: 132px;
+}
+
+.plan_title {
+font-size: 60px;
+font-weight: bold;
+line-height: 70px;
+letter-spacing: -1.875789999961853px;
+color: #19191B;
+max-width: 504px;
+margin-bottom: 110px;
+}
+
+.item {
+    width: 330px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 34px 0px 27px;
+}
+
+.item:hover {
+    transition: 500ms;
+    background: #FF7143;
+    box-shadow: 0px 32px 34px 0px #FF703B51;
+}
+
+.item_text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.5627369284629822px;
+    color: #696871;
+}
+
+.item:hover .item_text, .item:hover .item_title, .item:hover .item_li {
+    color: white;
+    transition: 500ms;
+}
+
+.item_title {
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -1.034482717514038px;
+    margin: 22px 0 28px;
+    color: #1D293F;
+}
+
+.item_title span {
+    font-size: 28px;
+}
+
+.item_li {
+    list-style: none;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.5314737558364868px;
+    color: #696871;
+}
+
+.button_item {
+    width: 285px;
+    background: white;
+    color: #5454D4;
+    margin-top: 35px;
+}
+
+.item:hover .button_item {
+    background: #9F3919;
+    color: white;
+    transition: 500ms;
+}
